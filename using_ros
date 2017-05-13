@@ -1,0 +1,9 @@
+To calibrate using ros enter commands line by line
+
+roscore
+
+roslaunch usb_cam usb_cam-test.launch
+
+rosrun camera_calibration cameracalibrator.py --size 5x4 --square 0.0506 image:=/usb_cam/image_raw camera:=/usb_cam
+
+Modify with your parameters. Take>40 images and then save and commit
