@@ -1,0 +1,1 @@
+g++  hough.cpp -o opencv `pkg-config --cflags --libs opencv`
