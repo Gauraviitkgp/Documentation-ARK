@@ -1,0 +1,10 @@
+this document contains all u need to know about RAM
+
+Random Access Memory
+
+
+Types of RAM  speeds            Module name
+DDR           200 267 334 400   PC-1600,PC-2100,Pc-2700,PC-3200
+DDR2          400 533 667 800   PC-3200,PC-4200,Pc-5300
+DDR3          800 1066 1333 1600   PC-6400,PC-8500,Pc-106000
+measured in MHz

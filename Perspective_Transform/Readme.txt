@@ -1,6 +1,6 @@
 Firstly, Detect the corner points of the part of image where u want to apply perspective transformation.
 
-for that use 
+for that use
 
 g++  detect_points.cpp -o opencv `pkg-config --cflags --libs opencv`
 
@@ -15,3 +15,6 @@ Then run the python command
 python transform.py --image example_01.png --coords "[(73, 239), (356, 117), (475, 265), (187, 443)]"
 
 coordinates are randomly taken here as an eg.
+
+http://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/
+-- Refer to this thing 

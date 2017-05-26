@@ -1,0 +1,35 @@
+to connect your pc to get vedio feed..
+
+firsly set the up the raspberry. then ssh it. use nmap -sH 192.168.2.* to get its ip address. Connect your pc to ARK_BASE_2 pass:-comeflywithme.
+
+Then access 
+sudo nano /etc/hosts
+
+and add your ip address and your laptop name. for eg. suryawanshi@slytherine:~$ is your terminal bash, then slytherine becomes your pc name. Similarly add pi ip address and name into your pc sudo nano /etc/hosts.
+
+then,
+screen pi i.e just enter 
+screen
+in pi's terminal
+
+then, 
+roscore 
+on pi's terminal.
+
+in the NODES section copy paste the ROS_MASTER_URI line.. and export it to your pc like
+
+export ROS_MASTER_URI=http://raspberrypi:11311/
+
+after export type quickly ctrl+A and C to get a net tab [learn about screen for the pupose]
+
+then on pi's terminal type 
+rosrun usb_cam usb_cam_node
+
+on your pc's terminal type
+rqt_image_view
+
+then u can view the image
+
+
+
+

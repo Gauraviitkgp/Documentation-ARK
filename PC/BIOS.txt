@@ -1,0 +1,13 @@
+#1 BIOS
+BIOS stands for Basic input output system
+located on motherboard
+small chip on which software cld be loaded called firmware
+
+#2 Updating our BIOS
+2.1 Determine the current version
+-- We need to look for a info of bios on startup
+-- for windows user. best command is msinfo32 and Dxdigg
+-- go to the computer manufacturer's website and find d correct update
+--download it and the current bios version too
+-- secure our power source
+--install the bios(flashing our bios)
