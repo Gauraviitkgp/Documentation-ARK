@@ -109,6 +109,16 @@ MYROBOT_control/launch/MYROBOT_control.launch. For Rrbot:-
 
 For furthur details on roslaunch:- http://gazebosim.org/tutorials?tut=ros_roslaunch
 
+Now start rrbot in gazebo by
+
+Start the RRBot simulation:
+
+       roslaunch rrbot_gazebo rrbot_world.launch
+       
+Load the controllers for the two joints by running the second launch file:
+
+    roslaunch rrbot_control rrbot_control.launch
+
 For testing send example joint commands:-
 
         rostopic pub -1 /rrbot/joint1_position_controller/command std_msgs/Float64 "data: 1.5"
